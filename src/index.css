@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+form {
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+#emailLabel{
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+#emailField {
+  position:absolute;
+  left:100px;
+  top:0px;
+}
+#emailError {
+  position:absolute;
+  left:100px;
+  /* border:1px solid black; */
+  /* display:none; */
+  width:400px;
+  height:25px;
+  top:25px;
+}
+#pswLabel{
+  position:absolute;
+  left:0px;
+  top:75px;
+}
+
+#pswField {
+  position:absolute;
+  left:100px;
+  top:75px;
+}
+#pswError {
+  position:absolute;
+  /* border:1px solid black; */
+  width:100px;
+  height:25px;
+  left:100px;
+  /* display:none; */
+  top:100px;
+}
+
+
+button {
+  position:absolute;
+  left:0px;
+  top:150px;
+}
+
+
+
